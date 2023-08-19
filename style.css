@@ -1,0 +1,321 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #474A56;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #474A56;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #474A56;
+    font-size: 30px;
+}
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.opening {
+    background-color: #c1ebf7;
+    height: 180px;
+    width: 120px; 
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 25px;
+    color: #3A3845;
+    font-family: 'Lato', sans-serif;
+}
+
+h6 {
+    font-size: 20px;
+    color: #3A3845;
+    font-family: 'Lato', sans-serif;
+}
+
+.change {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+
+h5 {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: #474A56;
+    top: 15px;
+    left: 45px;
+    font-size: 0;
+}
+
+.paragraph {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    border: 2px solid #c1ebf7;
+    border-radius: 10px;
+    padding: 7px;
+    color: #474A56;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    bottom: 350px;
+    left: 40px;
+    border: 2px solid #c1ebf7;
+    border-radius: 10px;
+    padding: 7px;
+    color: #3A3845;
+    font-size: 0;
+}
+
+.one {
+    background-image: url(1.avif);
+}
+
+.two {
+    background-image: url(2.avif);
+}
+
+.three {
+    background-image: url(3.png);
+}
+
+.four {
+    background-image: url(4.avif);
+}
+
+.five {
+    background-image: url(5.avif);
+}
+
+.six {
+    background-image: url(6.avif);
+}
+
+.expand {
+    flex: 4;
+}
+
+.expand h5 {
+    font-size: 30px;
+    color: #474A56;
+    transition: all 1s ease-in;
+}
+
+.expand .paragraph {
+    font-size: 25px;
+    transition: all 1s ease-in;
+}
+
+.expand .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: #474A56;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    color: #474A56;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #c1ebf7;
+    font-size: 15px;
+}
+
+.mes {
+    border-radius: 5px;
+    color: #3A3845;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #c1ebf7;
+    font-size: 15px;
+}
+
+.btn {
+    width: 120px;
+    color: #474A56;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    background-color: #c1ebf7;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.address {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adjust {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.find {
+    color: #474A56;
+    background-color: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.find:hover {
+    transform: scale(1.05);
+}
+
+.place {
+    color: #474A56;
+    background-color: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+::placeholder {
+    font-family: 'Lato', sans-serif;
+    color: #3A3845;
+}
+
+
+
+
+@media all and (max-width: 800px){
+    .heading {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h3, h2 {
+        font-size: 20px;
+    }
+
+    .item {
+        height: 60vh;
+    }
+
+    h5 {
+        left: 15px;
+    }
+
+    .expand {
+        flex: 10;
+    }
+
+    .expand h5 {
+        font-size: 20px;
+    }
+    
+    .expand .paragraph {
+        font-size: 15px;
+    }
+
+    .expand .price {
+        font-size: 15px;
+    }
+
+    .paragraph {
+        top: 100px;
+        left: 10px;
+        padding: 5px;
+        border: 1px solid #c1ebf7;
+    }
+    
+    .price {
+        bottom: 210px;
+        padding: 5px;
+        left: 10px;
+        border: 1px solid #c1ebf7;
+    }
+    
+    label {
+        font-size: 25px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address {
+        flex-direction: column;
+    }
+
+    .adjust {
+        align-items: center;
+    }
+
+    .find {
+        font-size: 17px;
+    }
+
+    .place {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .mes {
+        width: 300px;
+    }
+}
+
